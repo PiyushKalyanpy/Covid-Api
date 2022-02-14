@@ -1,0 +1,28 @@
+body {
+  font-family: monospace;
+}
+
+#databox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-group {
+  box-shadow: 0 12px 48px rgb(109 117 141 / 20%);
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-grow: 1;
+
+}
+
+.list-group-item {
+  border-radius: 8px;
+  border: 0px;
+}
+
+span {
+  color: rgb(21, 195, 154);
+  font-weight: bold;
+}
